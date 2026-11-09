@@ -1,0 +1,19 @@
+{
+  "name": "openjob-consumer",
+  "version": "2.0.0",
+  "private": true,
+  "main": "consumer.js",
+  "scripts": {
+    "start": "node consumer.js",
+    "start:dev": "node --watch consumer.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.5",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.16",
+    "pg": "^8.13.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
