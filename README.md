@@ -1,3 +1,4 @@
+
 # OpenJob RESTful API V2 — Dicoding Submission
 
 Project is intentionally split into **two independent Node.js projects** as required by the reviewer:
@@ -106,3 +107,7 @@ Redis is used for cached GET responses and cache invalidation after mutations. R
 For any new migration, generate its filename through the project script rather than naming it manually:
 `npm run migrate:create -- create-description`
 Run this command from `api/`. Do not rename migrations that have already been applied to a database; create a new generated migration for subsequent schema changes.
+
+# Submission-Belajar-Fundamental-Back-end-JavaScript
+Tugas Akhir atau Submission Belajar Fundamental Back-end JavaScript Program Asah led Dicoding Supported By GoTo
+
